@@ -261,7 +261,8 @@
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(11F, 24F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(1362, 938);
+            this.AutoSize = true;
+            this.ClientSize = new System.Drawing.Size(1362, 1021);
             this.Controls.Add(this.btnConsultar);
             this.Controls.Add(this.btnSalir);
             this.Controls.Add(this.txtSubtotal);
@@ -278,6 +279,7 @@
             this.Controls.Add(this.dataGridView1);
             this.Controls.Add(this.Proveedor);
             this.Name = "ConsultaCompra";
+            this.Padding = new System.Windows.Forms.Padding(100);
             this.Text = "ConsultaCompra";
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).EndInit();
             this.Proveedor.ResumeLayout(false);

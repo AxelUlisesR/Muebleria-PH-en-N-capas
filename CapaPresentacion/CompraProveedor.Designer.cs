@@ -174,14 +174,14 @@
             // maskedTextBox1
             // 
             this.maskedTextBox1.Enabled = false;
-            this.maskedTextBox1.Location = new System.Drawing.Point(809, 114);
+            this.maskedTextBox1.Location = new System.Drawing.Point(809, 106);
             this.maskedTextBox1.Name = "maskedTextBox1";
             this.maskedTextBox1.Size = new System.Drawing.Size(138, 29);
             this.maskedTextBox1.TabIndex = 66;
             // 
             // label2
             // 
-            this.label2.Location = new System.Drawing.Point(739, 114);
+            this.label2.Location = new System.Drawing.Point(725, 106);
             this.label2.Name = "label2";
             this.label2.Size = new System.Drawing.Size(100, 23);
             this.label2.TabIndex = 65;
@@ -209,11 +209,11 @@
             this.groupBox1.Size = new System.Drawing.Size(1077, 352);
             this.groupBox1.TabIndex = 67;
             this.groupBox1.TabStop = false;
-            this.groupBox1.Text = "Producto";
+            this.groupBox1.Text = " ";
             // 
             // btnOK
             // 
-            this.btnOK.Location = new System.Drawing.Point(809, 172);
+            this.btnOK.Location = new System.Drawing.Point(807, 172);
             this.btnOK.Name = "btnOK";
             this.btnOK.Size = new System.Drawing.Size(138, 46);
             this.btnOK.TabIndex = 78;
@@ -372,6 +372,7 @@
             // 
             // dtpFecha
             // 
+            this.dtpFecha.Enabled = false;
             this.dtpFecha.Format = System.Windows.Forms.DateTimePickerFormat.Short;
             this.dtpFecha.Location = new System.Drawing.Point(711, 17);
             this.dtpFecha.Name = "dtpFecha";

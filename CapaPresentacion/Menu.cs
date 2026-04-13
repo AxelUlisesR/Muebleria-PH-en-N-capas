@@ -7,6 +7,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
+using CapaNegocio;
 
 namespace CapaPresentacion
 {
@@ -65,5 +66,7 @@ namespace CapaPresentacion
             compra.Show();
             this.Hide();
         }
+
+        
     }
 }

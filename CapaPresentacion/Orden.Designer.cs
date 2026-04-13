@@ -72,6 +72,7 @@
             this.label1 = new System.Windows.Forms.Label();
             this.txtDescripcion = new System.Windows.Forms.TextBox();
             this.btnConsulta = new System.Windows.Forms.Button();
+            this.button1 = new System.Windows.Forms.Button();
             ((System.ComponentModel.ISupportInitialize)(this.dgvDetalle)).BeginInit();
             this.groupBox1.SuspendLayout();
             this.groupBox2.SuspendLayout();
@@ -545,12 +546,21 @@
             // 
             // btnConsulta
             // 
-            this.btnConsulta.Location = new System.Drawing.Point(254, 1008);
+            this.btnConsulta.Location = new System.Drawing.Point(380, 1008);
             this.btnConsulta.Name = "btnConsulta";
             this.btnConsulta.Size = new System.Drawing.Size(117, 40);
             this.btnConsulta.TabIndex = 53;
             this.btnConsulta.Text = "Consultar";
             this.btnConsulta.Click += new System.EventHandler(this.btnConsulta_Click);
+            // 
+            // button1
+            // 
+            this.button1.Location = new System.Drawing.Point(30, 1008);
+            this.button1.Name = "button1";
+            this.button1.Size = new System.Drawing.Size(221, 40);
+            this.button1.TabIndex = 54;
+            this.button1.Text = "Consulta general";
+            this.button1.Click += new System.EventHandler(this.button1_Click);
             // 
             // Orden
             // 
@@ -559,6 +569,7 @@
             this.AutoSize = true;
             this.AutoSizeMode = System.Windows.Forms.AutoSizeMode.GrowAndShrink;
             this.ClientSize = new System.Drawing.Size(1576, 1065);
+            this.Controls.Add(this.button1);
             this.Controls.Add(this.btnConsulta);
             this.Controls.Add(this.label1);
             this.Controls.Add(this.txtPrecio);
@@ -626,5 +637,6 @@
         private System.Windows.Forms.Label label1;
         private System.Windows.Forms.TextBox txtDescripcion;
         private System.Windows.Forms.Button btnConsulta;
+        private System.Windows.Forms.Button button1;
     }
 }

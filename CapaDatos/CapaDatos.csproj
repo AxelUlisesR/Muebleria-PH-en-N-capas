@@ -45,6 +45,7 @@
     <Compile Include="ClienteDAO.cs" />
     <Compile Include="CompraProveedorDAO.cs" />
     <Compile Include="Conexion.cs" />
+    <Compile Include="ConsultaGeneralVentaDAO.cs" />
     <Compile Include="OrdenDAO.cs" />
     <Compile Include="ProductoDAO.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />

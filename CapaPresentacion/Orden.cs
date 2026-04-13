@@ -307,5 +307,12 @@ namespace CapaPresentacion
             menu.Show();
             this.Close();
         }
+
+        private void button1_Click(object sender, EventArgs e)
+        {
+            ConsultaGeneralVentas consultaGeneralVentas = new ConsultaGeneralVentas();
+            consultaGeneralVentas.Show();
+            this.Hide();
+        }
     }
 }

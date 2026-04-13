@@ -115,7 +115,6 @@ namespace CapaPresentacion
         private void btnNuevo_Click(object sender, EventArgs e)
         {
             CargarCombos();
-            dtpFecha.Enabled = true;
             cboProveedor.Enabled = true;
             cboCategoria.Enabled = true;
             cboProducto.Enabled = true;
@@ -162,6 +161,7 @@ namespace CapaPresentacion
                 txtStock.Text = row["stock"].ToString();
                 txtDescripcion.Text = row["descripcion"].ToString();
                 maskedTextBox1.Text = row["costo"].ToString();
+                txtCantidad.Focus();
             }
             else
             {
@@ -229,6 +229,8 @@ namespace CapaPresentacion
 
         private void btnSalir_Click(object sender, EventArgs e)
         {
+            Menu menu = new Menu();
+            menu.Show();
             this.Close();
         }
 

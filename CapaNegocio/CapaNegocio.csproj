@@ -44,6 +44,7 @@
     <Compile Include="ClienteCN.cs" />
     <Compile Include="CompraProveedorCN.cs" />
     <Compile Include="ConsultaCompraCN.cs" />
+    <Compile Include="ConsultaGeneralVentaCN.cs" />
     <Compile Include="ConsultaOrdenCN.cs" />
     <Compile Include="OrdenCN.cs" />
     <Compile Include="ProductoCN.cs" />
